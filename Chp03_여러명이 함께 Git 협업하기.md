@@ -23,7 +23,7 @@
 | 2절  | 브랜치를 만든다(branch), 이동한다(checkout) :heavy_check_mark: |
 | 3절  | 브랜치를 병합한다(merge) :heavy_check_mark:                  |
 | 4절  | 충돌을 해결한다 :heavy_check_mark:                           |
-| 5절  | 풀 리퀘스트(Pull Request) ​ :hammer_and_wrench:               |
+| 5절  | 풀 리퀘스트(Pull Request) ​ :hammer_and_wrench: p.117부터     |
 | 6절  | 릴리즈(release)                                              |
 
 
