@@ -71,7 +71,7 @@ Git 호스팅 사이트는 사실 GitHub 외에도 GitLab,BitBucket 등이 있�
 
 1\. `내 컴퓨터 > 바탕화면 >Programming > iTshirt-cat` 이라는 폴더를 생성
 
-![](Chp00_img\PwVWsmBMaq.png)
+![](.\Chp00_img\PwVWsmBMaq.png)
 
 
 
