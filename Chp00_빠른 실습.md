@@ -318,15 +318,17 @@ $ git push origin master
 
 
 
-다시 git push origin master 를 해보겠습니다.git-credential-manager_1elkyZs9Sv.png
+다시 git push origin master 를 해보겠습니다.
 
 아래와 같이 로그인 팝업창이 뜨면 로그인도 해주면 됩니다. 원격저장소 아이디(혹은 닉네임)와 동일해야 합니다.
 
-![](Chp00_img\git-credential-manager_1elkyZs9Sv.png)
 
-![](Chp00_img\mintty_EgKPIpnA7A.png)
 
-==> 성공!
+<img src="Chp00_img\git-credential-manager_1elkyZs9Sv.png" style="float:left" />
+
+<img src="Chp00_img\mintty_EgKPIpnA7A.png" style="float:left" />
+
+
 
 
 
