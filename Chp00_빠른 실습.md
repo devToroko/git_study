@@ -111,7 +111,18 @@ Git 호스팅 사이트는 사실 GitHub 외에도 GitLab,BitBucket 등이 있�
 
 
 
+
+
 폴더에 돌아가면  **\[.git]**  폴더가 생깁니다.
+
+만약 보이지 않는다면 윈도우 디렉토리 창 상단의 \[보기] 탭을 누르고 \[ 파일 확장명 ] 에 체크를 해주세요.
+
+<img src="Chp00_img\rQKpEgpyjY.png" style="border:2px solid; float:left;" />
+
+
+
+
+
 이 폴더에는 Git으로 생성한 버전들의 정보와 원격저장소 주소 등이 들어있습니다.
 
 이 폴더를 우리는 **로컬저장소**라고 부릅니다.
@@ -275,7 +286,7 @@ $ git push origin master
 
 1\. 윈도우 검색에서 "자격 증명 관리자"를 검색하세요
 
-![](Chp00_img\Typora_uQ31Cf4LBX.png)
+<img src="Chp00_img\Typora_uQ31Cf4LBX.png" style="zoom:80%;border:2px solid;float:left" />
 
 
 
@@ -307,7 +318,11 @@ $ git push origin master
 
 
 
-다시 git push origin master 를 해보겠습니다.
+다시 git push origin master 를 해보겠습니다.git-credential-manager_1elkyZs9Sv.png
+
+아래와 같이 로그인 팝업창이 뜨면 로그인도 해주면 됩니다. 원격저장소 아이디(혹은 닉네임)와 동일해야 합니다.
+
+![](Chp00_img\git-credential-manager_1elkyZs9Sv.png)
 
 ![](Chp00_img\mintty_EgKPIpnA7A.png)
 
