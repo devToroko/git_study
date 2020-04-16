@@ -143,6 +143,14 @@ $ git config --global user.name "devtoroko"   +   \[Enter]
 
 
 
+(만약 이 작업을 안하고 후에 쓰는 git commit 을 시도하면 아래와 같은 창이 나오면서 commit을 막게됩니다)
+
+<img src="Chp00_img/KakaoTalk_Iy7BAZmwMV.png" style="zoom:67%;" />
+
+
+
+
+
 2\. 커밋에 추가할 파일을 선택합니다.
 
 $ git add README.txt   +   \[Enter]
