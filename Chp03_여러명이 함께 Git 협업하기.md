@@ -118,7 +118,7 @@ Chp02의  master 와 origin/master 라는 꼬리표를 sourceTree 에서 본적 
 
 
 
-그렇다면 이런 포인터가 1개 미리 생성했다고 가정해보죠. 아래와 같이 말이죠.
+그렇다면 이런 포인터를 1개 더 생성했다고 가정해보죠. 아래와 같이 말이죠.
 
 <img src="Chp03_img\POWERPNT_f62nr4Tu5M.png" style="zoom:80%;border:2px solid;float:left" />
 
@@ -136,7 +136,7 @@ Chp02의  master 와 origin/master 라는 꼬리표를 sourceTree 에서 본적 
 
 
 
-\- master 브랜치를 선택(checkout)하여서 커밋을 합니다.
+\- master 브랜치를 선택(checkout)하여서 커밋을 합니다. 그러면 아래와 같이 두개의 커밋이 하나의 커밋을 동시에 가리키는 것을 확인할 수 있습니다. 이렇게 되면 각자의 브랜치에서 각자의 커밋을 이어서 만들어 나갈 수 있겠죠? 
 
 <img src="Chp03_img\POWERPNT_hXIQIqiV4N.png" style="zoom:80%;border:2px solid;float:left" />
 
@@ -144,7 +144,7 @@ Chp02의  master 와 origin/master 라는 꼬리표를 sourceTree 에서 본적 
 
 
 
-위에서 **checkout**을 통해서 브랜치를 바꾸는게 어떻게 가능할까요?
+그런데 말이죠...위에서 **checkout**을 통해서 브랜치를 바꾸는게 어떻게 가능할까요?
 
 이것은 **\[HEAD] 라는 특수한 포인터** 덕분입니다.
 
@@ -152,21 +152,21 @@ Chp02의  master 와 origin/master 라는 꼬리표를 sourceTree 에서 본적 
 
 <img src="Chp03_img\POWERPNT_ivdiwgITR1.png" style="zoom:80%;border:2px solid;float:left" />
 
-위 그림같은 상황이면 현재 파일의 상태는 "커밋6" 의 상태가 되겠죠?
+그런데 이렇게 checkout 명령어를 써서 HEAD를 옮기면 우리의 폴더 내부의 파일들 상태는 어떨까요?
 
-그러면 HEAD가 고양이 브랜치를 가르키게 하면? "커밋5"의 버전과 같은 상태의 파일을 보게될겁니다.
+지금 위 그림 같은 상황이면 우리가 마지막 커밋을 했을 때의 상황과 일치하는 파일 상태입니다.
+
+그러면 HEAD가 고양이 브랜치를 가르키게 하면 어떻게 될까요? 
+
+"커밋5" 최종적으로  commit했던 파일들이 보여줄겁니다.
 
 
 
-그런데 사실 꼭 특정 브랜치를 가르킬 필요는 없답니다. 아래처럼 특정 커밋을 직접적으로 가리키게 할 수도 있죠.
-
+checkout으로 꼭 특정 브랜치를 가르킬 필요는 없답니다. 
+아래처럼 특정 커밋을 직접적으로 가리키게 할 수도 있죠. 
 이런 HEAD의 상태를  "**분리된 HEAD ( Detached HEAD)**" 라고 합니다.
 
 <img src="Chp03_img\POWERPNT_0hfQLxF55J.png" style="zoom:80%;border:2px solid;float:left" />
-
-
-
-이렇게 HEAD 포인터가 가르키는 대상을 바꾸는 명령어가 Chp00에서 봤던 "**checkout**" 입니다.
 
 
 
@@ -186,7 +186,8 @@ Chp02의  master 와 origin/master 라는 꼬리표를 sourceTree 에서 본적 
 
 
 
-잠시 여태까지 했던 커밋들을 돌아보자
+이제 본격적으로 위에서 말했던 흐름대로 브랜치를 만들고, 브랜치를 checkout으로 이동해보죠.
+잠시 여태까지 했던 커밋들을 돌아볼까요?
 
 <img src="Chp03_img\SourceTree_0HhDARGwfG.png" style="zoom:80%;border:2px solid;float:left" />
 
@@ -211,11 +212,12 @@ Chp02의  master 와 origin/master 라는 꼬리표를 sourceTree 에서 본적 
 
 
 
-이제 sourceTree 를 이용해서 실습을 해보죠.
+지금부터 **고양이**의 입장에서 작업을 진행해보겠습니다. 
+TODO에서 고양이와 문어가 대화할 때, 고양이는 기능 상세 설명을 작성한다고 했던거 기억하시죠 ?
 
 
 
-1\. 다음 그림을 따라해보세요.
+1\. 다음 그림을 따라해보세요. 
 
 <img src="Chp03_img\SourceTree_ixjc7BaqU6.png" style="zoom:80%;" />
 
@@ -237,7 +239,7 @@ Chp02의  master 와 origin/master 라는 꼬리표를 sourceTree 에서 본적 
 
 
 
-3\. 이제 \[iTshirt-cat] 폴더에서 새 파일을 만들어 보겠습니다. 그리고 커밋도 해보죠.
+3\. 이제 \[iTshirt-cat] 폴더에서 **새 파일**(detail-page.md)을 만들고, 내용 작성 및 저장 후, 커밋을 하겠습니다.
 
 <img src="Chp03_img\Code_8rjSaM10dS.png" style="zoom:80%;border:2px solid;float:left" />
 
@@ -274,7 +276,8 @@ Chp02의  master 와 origin/master 라는 꼬리표를 sourceTree 에서 본적 
 
 
 
-6\. History에 \[origin/feature/detail-page\] 이 보입니다. 원격 저장소에도 현재 브랜치의 커밋이 잘 올라갔다는 뜻입니다.
+6\. History에 \[**origin**/feature/detail-page\] 이 보입니다. 
+    원격 저장소에도 현재 브랜치의 커밋이 잘 올라갔다는 뜻입니다.
 
 <img src="Chp03_img\SourceTree_84i1wt72oC.png" style="zoom:80%;border:2px solid;float:left" />
 
@@ -292,7 +295,8 @@ Chp02의  master 와 origin/master 라는 꼬리표를 sourceTree 에서 본적 
 
 ### :writing_hand: 브랜치 이동하기 : 체크아웃(checkout)
 
-이번에는 고양이가 아니라 문어의 입장에서 브랜치를 만들고 버전관리를 해보죠.
+이번에는 고양이가 아니라 **문어의 입장**에서 브랜치를 만들고 버전관리를 해보죠.
+(문어는 장바구니 기능을 만들기로 했던거 기억하시죠?)
 
 master 브랜치로 돌아가서(checkout 사용) 새로운 브랜치를 만들면서 차차 해보죠.
 
@@ -311,7 +315,8 @@ master 브랜치로 돌아가서(checkout 사용) 새로운 브랜치를 만들�
 
 
 
-3\. 이렇게 생성된 브랜치에서 feature-list.md 파일의 내용을 살짝 변경해보겠습니다. 문어는 고양이가 현재 이 파일을 건든지는 모르는 상태라고 가정하고 변경하는겁니다.
+3\. 이렇게 생성된 브랜치에서 feature-list.md 파일의 내용을 살짝 변경해보겠습니다. 문어는 고양이가 현재 이 
+     파일을 건든지는 모르는 상태라고 가정하고 변경하는겁니다. (이런 일은 실제로도 비일비재할 겁니다)
 
 <img src="Chp03_img\Code_PWb7ai7yif.png" style="zoom:80%;float:left" />
 
@@ -373,7 +378,7 @@ Git에서 **브랜치와 브랜치를 합치는 명령어는 머지**입니다. 
 
 
 
-1\. master 브랜치에 feature/detail-page 브랜치를 합치기 전, 즉 현재의 상태다.
+1\. master 브랜치에 feature/detail-page 브랜치를 합치기 전, 즉 현재의 상태입니다.
 
 <img src="Chp03_img\POWERPNT_2J180uOkVn.png" style="zoom:80%;border:2px solid;float:left" />
 
@@ -419,9 +424,7 @@ master 브랜치가 최종적인 병합 커밋을 가르키도록 하겠습니�
 
 <img src="Chp03_img\SourceTree_qQpf6tXCWb.png" style="border: 2px solid; float: left; zoom: 80%;" />
 
-
-
-<img src="Chp03_img\SourceTree_pUn40d59Aa.png" style="zoom:60%;float:left" />
+<img src="Chp03_img\SourceTree_pUn40d59Aa.png" style="zoom:80%;float:left" />
 
 
 
@@ -450,6 +453,8 @@ master 브랜치가 최종적인 병합 커밋을 가르키도록 하겠습니�
 
 
 <img src="Chp03_img\SourceTree_K2eSaCkYht.png" style="zoom:80%;border: 2px solid; float: left;" />
+
+
 
 
 
@@ -496,6 +501,8 @@ master 브랜치가 최종적인 병합 커밋을 가르키도록 하겠습니�
 <img src="Chp03_img\SourceTree_mjy7hfn9ZK.png" style="zoom:80%;border: 2px solid; float:left;" />
 
 <img src="Chp03_img\SourceTree_EtajyrWiqa.png" style="zoom:80%;border: 2px solid; float:left;" />
+
+
 
 
 
