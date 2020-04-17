@@ -23,7 +23,7 @@
 | 2절  | 브랜치를 만든다(branch), 이동한다(checkout) :heavy_check_mark: |
 | 3절  | 브랜치를 병합한다(merge) :heavy_check_mark:                  |
 | 4절  | 충돌을 해결한다 :heavy_check_mark:                           |
-| 5절  | 풀 리퀘스트(Pull Request) ​ :hammer_and_wrench: p.117부터     |
+| 5절  | 풀 리퀘스트(Pull Request) ​                                   |
 | 6절  | 릴리즈(release)                                              |
 
 
@@ -32,7 +32,9 @@
 
 문어: 좋아. 그런데 만약 동시에 커밋을 올리게되면 어떻게 돼? 꼬일수도 있지 않아?
 
-고양이: 걱정 마, 우리 둘다 원격저장소에 커밋을 올릴 것이지만, **원격저장소 안의 서로 다른 가지(브랜치)에 커밋을 올릴거야**. 그런 후에 나중에 각 브랜치에 있는 커밋을 합칠 수 있어.
+고양이: 걱정 마, 우리 둘다 원격저장소에 커밋을 올릴 것이지만,
+ 			**원격저장소 안의 서로 다른 가지(브랜치)에 커밋을 올릴거야**. 
+			그런 후에 나중에 각 브랜치에 있는 커밋을 합칠 수 있어.
 
 문어: 아하, 그렇구나.일단은 고양이 브랜치, 문어 브랜치 하나씩 만들어야겠구나.
 
@@ -197,7 +199,8 @@ checkout으로 꼭 특정 브랜치를 가르킬 필요는 없답니다.
 
 
 
-보통 **하나의 브랜치 당 한 사람**이 작업하는게 바람직합니다. 그래야 버전이 꼬이지 않겠죠? 그러다보니 여러사람이 작업하는 **원격저장소에는 미리 브랜치 규칙을 정하는게 일반적**입니다.
+보통 **하나의 브랜치 당 한 사람**이 작업하는게 바람직합니다. 그래야 버전이 꼬이지 않겠죠? 
+그러다보니 여러사람이 작업하는 **원격저장소에는 미리 브랜치 규칙을 정하는게 일반적**입니다.
 
 
 
@@ -302,20 +305,20 @@ master 브랜치로 돌아가서(checkout 사용) 새로운 브랜치를 만들�
 
 
 
-1\. 소스트리 좌측 탭에서 체크아웃하려는 브랜치에서 마우스 오른쪽 클릭 \> 체크아웃 *... 를 클릭합니다.
+1\. 소스트리 좌측 탭에서 **체크아웃**하려는 브랜치에서 마우스 오른쪽 클릭 \> 체크아웃 *... 를 클릭합니다.
     귀찮으면 그냥 더블 클릭해도 됩니다.
 
 <img src="Chp03_img\SourceTree_mnDmJh6mpU.png" style="zoom:80%;border:2px solid;float:left" />
 
 
 
-2\. 브랜치를 생성합니다.
+2\. **브랜치를 생성**합니다.
 
 <img src="Chp03_img\SourceTree_ZPsqjpjAEh.png" style="zoom:80%;border:2px solid;float:left" />
 
 
 
-3\. 이렇게 생성된 브랜치에서 feature-list.md 파일의 내용을 살짝 변경해보겠습니다. 문어는 고양이가 현재 이 
+3\. 이렇게 **생성된 브랜치**에서 **feature-list.md 파일의 내용을 살짝 변경**해보겠습니다. 문어는 고양이가 현재 이 
      파일을 건든지는 모르는 상태라고 가정하고 변경하는겁니다. (이런 일은 실제로도 비일비재할 겁니다)
 
 <img src="Chp03_img\Code_PWb7ai7yif.png" style="zoom:80%;float:left" />
@@ -348,7 +351,7 @@ master 브랜치로 돌아가서(checkout 사용) 새로운 브랜치를 만들�
 
 
 
-## :pencil2: 브랜치와 브랜치를 합치기 : 병합(merge, 머지)
+## :fountain_pen: 브랜치와 브랜치를 합치기 : 병합(merge, 머지)
 
 
 
@@ -419,7 +422,7 @@ master 브랜치가 최종적인 병합 커밋을 가르키도록 하겠습니�
 
 
 
-1\. 소스트리 좌측에서 master 브랜치를 체크아웃 하고, 그 상태에서 feature/detail-page 와 병합을 합니다. 
+1\. 소스트리 좌측에서 **master 브랜치를 체크아웃** 하고, 그 상태에서 **feature/detail-page 와 병합**을 합니다. 
     방법은 아래와 같습니다.
 
 <img src="Chp03_img\SourceTree_qQpf6tXCWb.png" style="border: 2px solid; float: left; zoom: 80%;" />
@@ -446,7 +449,7 @@ master 브랜치가 최종적인 병합 커밋을 가르키도록 하겠습니�
 
 
 
-3\. 반영되지 않은 2개의 커밋을 원격에 푸시합니다.
+3\. 반영되지 않은 2개의 **커밋을 원격에 푸시**합니다.
 
 <img src="Chp03_img\SourceTree_675Kppoevr.png" style="zoom:80%;border: 2px solid; float: left;" />
 
@@ -481,7 +484,7 @@ master 브랜치가 최종적인 병합 커밋을 가르키도록 하겠습니�
 
 그래서 **모두가 사용하는 master 브랜치**에 바로 병합하지 않고, 
 
-혼자서만 사용하는 feature/cart 브랜치에 먼저 병합해서 문제가 없는지 확인합니다.
+혼자서만 사용하는 feature/cart 브랜치 기준으로 먼저 병합해서 문제가 없는지 확인합니다.
 
 
 
@@ -495,8 +498,8 @@ master 브랜치가 최종적인 병합 커밋을 가르키도록 하겠습니�
 
 
 
-1\. feature/cart 브랜치 기준으로 병합을 시도합니다. 먼저  feature/cart 에 체크아웃을 하고
-    병합하려는 커밋인 master 브랜치의 최신 커밋에 오른쪽 마우스 클릭 후 \[병합] 을 클릭합니다.
+1\. feature/cart 브랜치 기준으로 병합을 시도합니다. 먼저  **feature/cart 에 체크아웃**을 하고
+    **병합하려는 커밋인 master 브랜치**의 최신 커밋에 오른쪽 마우스 클릭 후 \[병합] 을 클릭합니다.
 
 <img src="Chp03_img\SourceTree_mjy7hfn9ZK.png" style="zoom:80%;border: 2px solid; float:left;" />
 
@@ -629,5 +632,208 @@ master 브랜치로 다시 checkout을 하고 \[feature/cart] 브랜치의 최�
 <span style="font-size:0.8em">그런데 충돌만 해결했다고 무작정 내 브랜치를 master 브랜치에 병합해도 될까요?</span>
 <span style="font-size:0.8em">모두가 사용하는 것이니 모두의 허락을 받고 병합을 하는게 좋지 않을까요? 맞습니다. 지금부터 할 풀 리퀘스트가 바로 그것입니다.</span>
 
-p.117이이서
+
+
+
+
+### :writing_hand: 풀 리퀘스트 만들기
+
+지금부터 고양이는 댓글 기능을 위해서 feature/comment 브랜치를 만들 것입니다. 그리고 고양이와 문어는 지금부터 서로 \[master] 브랜치에 통합하기 이전에 풀 리퀘스트를 하기로 약속합니다.
+
+
+
+1\. 먼저 댓글 기능 제작을 위해 \[feature/comment] 브랜치를 생성할 것입니다.
+
+<img src="Chp03_img\SourceTree_Dc3SVWqMS6.png" style="zoom:80%;border: 2px solid; float:left;" />
+
+
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_rTZcCqs6Sk.png" style="zoom:80%;border: 2px solid; float:left;" />
+
+
+
+
+
+
+
+2\. 해당 브랜치에서 comment.md 파일을 새로 생성 후 , 내용을 작성하고, 저장한다.
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\0EiUJVRNPE.png" style="zoom:80%;border: 2px solid; float:left;" />
+
+
+
+
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_vLqLP9xncB.png" style="zoom:80%;border: 2px solid; float:left;" />
+
+
+
+
+
+3\.  원격 저장소에 가면 아래와 같은 화면을 볼 수 있습니다.
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_ZS2yjZ4ima.png" style="zoom:80%;border:2px solid;float:left" />
+
+그러면 위에서 처럼 노란색 음영이 나타난 곳에 방금 푸시한 브랜치에 대한 알림이 보입니다.
+
+그 옆에 있는 "Compare & pull request" 를 눌러서 풀 리퀘스트를 해보도록 하겠습니다.
+
+
+
+
+
+
+
+4\. 풀 리퀘스트 작서을 해보죠
+
+
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_UCWDaZX7hD.png" style="zoom:80%;border:2px solid;float:left" />
+
+1. [ base : master  ]  : 병합된 커밋이 들어갈 브랜치를 정하는 선택박스
+2. [ compare : feature/comment ] : 병합의 대상이 될, 즉 내가 만들어서 base브랜치에 반영시키고 싶은 브랜치 
+3. [ compare : feature/comment ] : base 브랜치와 compare 브랜치가 충돌없이 병합될 수 있다는 뜻입니다.
+   이것은  GitHub가 자동으로 계산해주는 것입니다. 만약 충돌이 나면  Conflict 라고 알려줍니다.
+4. Reviewers : 저장소의 협력자가 여러명이라면 몇명을 콕 찝어서 이 풀 리퀘스트를 검토시킬 수 있습니다.
+5. Assignees : 이 풀 리퀘스트를 담당하는 동료를 적어줍니다. 보통 자기자신입니다.
+6. Labels : 이 풀 리퀘스트에  관한 라벨을 달아줍니다. 예를 들어 "버그","리뷰 필요","프런트엔드","백엔드"
+
+
+
+
+
+5\. 이후에 문어로 원격저장소에 오면 아래와 같은 풀 리퀘스트가 온 것을 확인할 수 있죠.
+     그러면 문어는 
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_9d01gtIcdj.png" style="border:2px solid;float:left" />
+
+문어는 이제 이 풀 리퀘스트를 수락(Accept) 할 건지, 수정을 요청할 것인지(Request Change) , 병합할 수도 있습니다(Merge pull request). 
+
+문어는 이 풀 리퀘스트가 문제가 없다고 판단하여 Merge pull request 를 클릭했습니다.
+
+
+
+6\. Merge pull request 를 누르면 병합 커밋을 만들 수 있는 입력창이 보입니다. 
+브랜치와 브랜치를 병합하는 것은 CLI나 GUI나 GitHub나 그게 그거입니다.
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_TgQIHcxBFy.png" style="zoom:80%;border:2px solid;float:left" />
+
+
+
+
+
+7\. 풀 리퀘스트가 성공적으로 병합된 후에는 닫혔다는 메시지가 나옵니다.
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_UVeTOkS5Sb.png" style="zoom:80%;border:2px solid;float:left" />
+
+
+
+
+
+이렇게 닫혀진 풀 리퀘스트는 Pull request > Closed 를 클릭하면 아까 닫힌 것을 확인할 수 있습니다.
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_9AYbowZZT3.png" style="zoom:80%;border:2px solid;float:left" />
+
+
+
+(참고로 지금은 고양이 계정으로만 계속 로그인해서 작업했지만, FM으로 하면 문어 계정을 만들고 계속 번갈아가면서 작업을 하는게 맞습니다. 책에서는 한 계정으로 위와 같이 했습니다.)
+
+
+
+그런데 소스트리에서도 이런 병합이 잘 반영되었을까요?
+
+
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_vp9YRTXX43.png" style="zoom:80%;border:2px solid;float:left" />
+
+....?????
+
+어떻게 된거죠 여전히 \[origin/master] 브랜치는 옛날 커밋을 가리키고 있습니다!
+GitHub에서 분명 아까 병합커밋을 생성했는데 말이죠... 
+
+
+
+이건 Git의 새로운 이력을 업데이트하는 명령어 \[ 패치 (Fetch) ] 를 안해서 그렇습니다.
+
+<span style="color:red;font-weight:bold">풀(Pull) 이 실제 코드를 내려받는 데 비해 패치는 그래프만 업데이트합니다</span>.
+
+
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_VQDPqHR4KK.png" style="zoom:80%;border:2px solid;float:left" />
+
+
+
+
+
+이후에 그래프가 업데이트된 것을 확인합니다.
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_Z4JlcmKtNv.png" style="zoom:80%;border:2px solid;float:left" />
+
+(로컬에 있는 master 브랜치의 커밋이 2개 밀렸다는 표시가 보이네요)
+
+
+
+8\.  이제 로컬 저장소의 master 브랜치에 새로운 커밋을 반영합시다.
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\Typora_IP3ipId7q0.png" style="zoom:80%;border:2px solid;float:left" />
+
+
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_39MUL7hM4V.png" style="zoom:67%;border:2px solid;float:left" />
+
+
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_tT005W4D4v.png" style="zoom:67%;border:2px solid;float:left" />
+
+
+
+
+
+
+
+## :fountain_pen: 개발이 완료되었습니다, 출시하죠! 릴리즈(release) !
+
+<span style="font-size:0.8em">이제 고양이와 문어가 만든 프로젝트가 어느정도 완성되어 세상에 공개하려합니다. 버전 1.0.0 으로 공개할 예정인데, GitHub에서는 이를 어떻게 표시할까요?</span>
+
+
+
+### :writing_hand: 특정 커밋에 포스트잇 붙이기 - 태그(tag)
+
+현재 코드 상태를 버전 v1.0.0 으로 기록하려합니다. 이것은 태그를 통해서 간단하게 표시할 수 있는데요,
+
+**태그는** 여태 저희가 썼던 브랜치와 같은 **포인터**입니다.
+
+
+
+현재 저희의 최신 커밋은 [ Merge pull request # 1 ~~~] 커밋에 v1.0.0 태그를 달아보죠.
+
+
+
+1\. \[master] 브랜치에 있는 상태에서 소스트리 상단의 \[태그] 아이콘을 클릭합니다.
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_ky9aTPHGq5.png" style="zoom:67%;border:2px solid;float:left" />
+
+
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_SfkpJuSFNO.png" style="zoom:67%;border:2px solid;float:left" />
+
+
+
+
+
+
+
+2\. 태그도 푸시를 해줘야 원격저장소에서 볼 수 있습니다.
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_QmwwQMmcRj.png" style="zoom:67%;border:2px solid;float:left" />
+
+
+
+
+
+원격 저장소에 가면 태그가 등록된것을 확인할 수 있습니다.
+
+<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_JBkQieiKsR.png" style="zoom:67%;border:2px solid;float:left" />
+
+
 
