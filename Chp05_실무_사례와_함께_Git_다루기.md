@@ -59,14 +59,14 @@
 
 깃과 깃허브로 관리하는 프로젝트를 시작하는 데엔 크게 2가지 방식이 있습니다.
 
-1. GitHub 에서 원격저장소를 만들고 이를 내 컴퓨터에 클론한다
-2. 내 컴퓨터에서 먼저 로컬저장소를 만들고 GitHub에 원격저장소를 만들어 로컬저장소에 원격 저장소 주소를 remote add 한다.
+1. **GitHub 에서 원격저장소를 만들고 이를 내 컴퓨터에 클론**한다
+2. 내 컴퓨터에서 **먼저 로컬저장소를 만들고 GitHub에 원격저장소를 만들어 로컬저장소에 원격 저장소 주소를 remote add** 한다.
 
 ==> 1번 방식을 하겠습니다.
 
 
 
-01\.  고양이로 로그인 후 새로운 원격저장소를 만듭니다.
+01\.  고양이로 로그인 후 **새로운 원격저장소**를 만듭니다.
 
 <img src="Chp05_img\chrome_y4Y4DwKRfM.png" style="zoom:70%;border:2px solid;float:left;" />
 
@@ -74,12 +74,14 @@
 
 
 
-2\.  README 를 생성해서 초기 커밋이 자동으로 되었네요. (initial commit 이 보이죠)
+02\.  README 를 생성해서 초기 커밋이 자동으로 되었네요. (initial commit 이 보이죠)
 원격저장소 주소를 복사하고, 소스트리의 디폴트 계정을 고양이로 바꿉니다.
 
 그리고 복사한 주소로 clone을 진행합니다.
 
 <img src="Chp05_img\chrome_7hjN3RwXfm.png" style="zoom:70%;border:2px solid;float:left;" />
+
+
 
 <img src="Chp05_img\SourceTree_3COsrpRT1U.png" style="zoom:70%;border:2px solid;float:left;" />
 
@@ -87,13 +89,13 @@
 
 <img src="Chp05_img\SourceTree_eftj5sVwEu.png" style="zoom:70%;border:2px solid;float:left;" />
 
+
+
 <img src="Chp05_img\SourceTree_8eiUeV0rH8.png" style="zoom:70%;border:2px solid;float:left;" />
 
 
 
 이제 실습할 준비가 완료되었네요.
-
-
 
 
 
@@ -123,7 +125,7 @@
 
 
 
-1\. [git-playground] 폴더에서 amend.md 파일을 생성하고 내용에 '어멘드 실습하기' 라고 적고 저장합니다.
+01\. [git-playground] 폴더에서 amend.md 파일을 생성하고 내용에 '**어멘드 실습하기**' 라고 적고 저장합니다.
 
 <img src="Chp05_img\Code_eAYAb5FVu7.png" style="zoom:70%;border:2px solid;float:left;" />
 
@@ -133,7 +135,7 @@
 
 
 
-2\. 이후에는 소스트리에서 커밋을 합니다. 푸시는 하지마세요!
+02\. 이후에는 소스트리에서 커밋을 합니다. 푸시는 하지마세요!
 
 <img src="Chp05_img\SourceTree_UoJf6RELrl.png" style="zoom:70%;border:2px solid;float:left;" />
 
@@ -143,11 +145,13 @@
 
 
 
-3\. amend.md 에 "어맨드"가 아니라 "amend" 라고 적어야하는 걸 뒤늦게 알아차린다고 가정하겠습니다.
+03\. amend.md 에 "어맨드"가 아니라 "amend" 라고 적어야하는 걸 뒤늦게 알아차린다고 가정하겠습니다.
 
 수정 및 저장하고, 소스트리에서 커밋화면에서 **커밋 옵션**을 부가적으로 해줍니다.
 
 <img src="Chp05_img\Code_6ZxSpbuHVl.png" style="zoom:70%;border:2px solid;float:left;" />
+
+
 
 <img src="Chp05_img\Typora_9xS0k3kCY7.png" style="zoom:70%;border:2px solid;float:left;" />
 
@@ -169,7 +173,7 @@
 
 
 
-4\.  커밋이 잘 바뀐걸 확인할 수 있습니다.
+04\.  커밋이 잘 바뀐걸 확인할 수 있습니다.
 
 <img src="Chp05_img\SourceTree_1Sd6kBs2c0.png" style="zoom:70%;border:2px solid;float:left;" />
 
@@ -183,7 +187,7 @@
 
 
 
-1\. 방금 만든 커밋을 push 해보죠.
+01\. 방금 만든 커밋을 push 해보죠.
 
 <img src="Chp05_img\SourceTree_1rL81VmPjH.png" style="zoom:70%;border:2px solid;float:left;" />
 
@@ -195,7 +199,7 @@
 
 
 
-2\. 이번엔 코드 수정 없이 커밋 메시지만 수정해보겠습니다.
+02\. 이번엔 코드 수정 없이 커밋 메시지만 수정해보겠습니다.
 
 커밋 옵션에서 마지막 커밋 정정을 체크 후 커밋 메시지에 '커밋 메시지 수정' 이라는 텍스트를 추가합니다.
 
@@ -217,7 +221,7 @@
 
 
 
-3\. 이제 강제 푸시를 할 건데, 이 강제 푸시를 하려는 브랜치는 만드시 혼자만 쓰고 있어야 합니다.
+03\. 이제 강제 푸시를 할 건데, 이 강제 푸시를 하려는 브랜치는 만드시 혼자만 쓰고 있어야 합니다.
 
 [ 도구 > 옵션 > Git 탭 ]
 
@@ -225,7 +229,7 @@
 
 
 
-4\. 세팅이 끝나면 푸시를 클릭합니다. 그리고 팝업창에 [강제 푸시] 옵션을 체크하고 푸시합니다.
+04\. 세팅이 끝나면 푸시를 클릭합니다. 그리고 팝업창에 [강제 푸시] 옵션을 체크하고 푸시합니다.
 
 <img src="Chp05_img\SourceTree_POt2ejZW3E.png" style="zoom:70%;border:2px solid;float:left;" />
 
@@ -247,7 +251,7 @@
 
 ## :cherry_blossom: cherry-pick: 커밋 떼 와서 브랜치에 붙이기
 
-
+<div style="font-size:0.8em"></div>
 
 너구리 회사의 브랜치 전략을 살펴보죠
 
@@ -279,7 +283,7 @@
 
 
 
-이럴때! **체리픽** 기능을 쓰면 됩니다.
+이럴 때!   **체리픽** 기능을 쓰면 됩니다.
 
 
 
@@ -297,7 +301,7 @@
 
 
 
-#### 01.  feat/a 브랜치 생성 및 커밋 연달아 3개 생성
+#### 01.  feat/a 브랜치 생성 및 커밋 연달아 생성
 
 
 
@@ -310,6 +314,8 @@
 \- **커밋 생성 (1)**
 
 <img src="Chp05_img\Code_1hgbiaIW9q.png" style="zoom:70%;border:2px solid;float:left;" />
+
+
 
 <img src="Chp05_img\SourceTree_6BhXxXkubO.png" style="zoom:70%;border:2px solid;float:left;" />
 
