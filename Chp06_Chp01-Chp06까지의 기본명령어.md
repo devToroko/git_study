@@ -61,6 +61,8 @@
 | mkdir <새폴더 이름> | 현재 폴더의 아래에 새로운 폴더를 만듭니다.                   |
 | echo "Hello Git"    | 메아리라는 뜻으로,  화면에 " " 안의 문장인 " Hello Git " 을 표시합니다. |
 
+더 많은 것을 알고 싶으면 `리눅스 명령어`를 검색하세요
+
 
 
 참고)
@@ -168,6 +170,8 @@ Git init 명령으로 생성되는 \[.git] 폴더가 로컬저장소입니다. �
 ##### Git 저장소
 
 Git 명령으로 관리할 수 있는 폴더 전체를 일반적으로 Git 프로젝트 혹은 Git 저장소라고 부릅니다. 사실 이 말은 상당히 모호합니다만,   많은 분이 이렇게 생각하기 때문에 이 책에서도 처음 설명에 Git 저장소라는 단어를 사용했습니다. 일반적으로 Git 저장소를 작업 폴더와  혼동하기도 하고 워킹트리 + 로컬저장소의 느낌으로 사용하고 있는 듯 합니다만 공식문서에서는 로컬저장소와 Git 저장소를 같은 뜻으로 사용하고 있습니다. git init 명령을 수행할 때 나오는 메시지도 '비어있는 Git 저장소를 .git에 만듭니다' 라고 나온 것 기억하시죠?
+
+
 
 
 
@@ -284,7 +288,7 @@ vim을 잘쓰면 괜찮지만, 잘 모르거나 애매하면 기본 에디터를
 
 
 
-===> Git 재설치 하면 됩니다.
+===> 결론: Git 재설치 하면 됩니다. 설치과정 중에 editor 설정하는 부분이 있는데, 거기서 선택하면 됩니다.
 
 
 
@@ -340,7 +344,7 @@ git merge 브랜치이름
 
 
 
-#### \- 간단한 텍스트 파일 생성하고 확인하기
+#### \- 간단한 텍스트 파일 생성 및 확인
 
 
 
@@ -364,15 +368,15 @@ $ git status
 
 생성한 파일 스테이지에 추가하기
 
-
-
+```spreadsheet
 $ git add file1.txt
 
 $git status
+```
 
 
 
-![mintty_e7lJ8rnvC2](C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp06_img\mintty_rpSFebb5jd.png)
+![mintty_e7lJ8rnvC2](Chp06_img\mintty_rpSFebb5jd.png)
 
 
 
@@ -439,7 +443,7 @@ git commit 명령어를 쓰면 아래 그림과 같이 VS Code 에디터가 열�
 
 ![Code_XxMqpp1LmT](Chp06_img/Code_XxMqpp1LmT.png)
 
-그리고 첫째줄은 커밋 메시지의 제목,  두번째로 오는 텍스트는 커밋 메시지의 본문 같은 겁니다.
+그리고 **첫째줄은 커밋 메시지의 제목**,  **두번째로 오는 텍스트는 커밋 메시지의 본문** 같은 겁니다.
 
 아참, 만약 commit 명령을 실행한 후 변심의 이유로 커밋이 하고 싶지 않으면, 
 VS Code  에 아무 작업도 하지 않고  [ X ] 를 클릭해서 창을 닫으면 됩니다.
@@ -460,9 +464,9 @@ git log 명령으로 git의 커밋 히스토리를 확인해 봅니다.
 
 ![mintty_spNxjiBWX6](Chp06_img/mintty_spNxjiBWX6.png)
 
- a472bc1 ? 
+맨 밑에 보이는  a472bc1 는 뭘까요? 
 
-커밋 히스토리에 보이는 앞의 16진수 7자리 숫자는 <span style="color:red;font-weight:bold">커밋 체크섬</span> 혹은 <span style="color:red;font-weight:bold">커밋 아이디</span>입니다.
+이 커밋 히스토리에 보이는 앞의 16진수 7자리 숫자는 <span style="color:red;font-weight:bold">커밋 체크섬</span> 혹은 <span style="color:red;font-weight:bold">커밋 아이디</span>입니다.
 실제로는 40자리이지만, 화면에서는 7자리만 보이게 합니다.
 
 
@@ -472,7 +476,6 @@ git log 명령으로 git의 커밋 히스토리를 확인해 봅니다.
 <img src="Chp06_img\firefox_RY9l1aCcD9.png" style="zoom:80%;border:2px solid;float:left" />
 
 ==> 출처 : https://medium.com/@joongwon/git-git-%EC%9D%98-%EA%B8%B0%EC%B4%88-a7801f45091d
-==> 이 블로그 추천합니다. 한 번 놀러가봐요.
 
 
 
@@ -488,7 +491,7 @@ git log --oneline --graph --decorate --all
 
 --oneline : 커밋 메시지를 한 줄로 용약해서 보여줍니다. 생략하면 커밋 정보를 자세히 표시합니다.
 --graph : 커밋 옆의 브랜치의 흐름을 그래프로 보여줍니다. GUI와 유사한 모습으로 나옵니다.
---decorate :  원래는 --decorate=short 옵션을 의미한다. 브랜치와 태그 등의 참조를 간결히 표시.
+--decorate :  원래는 --decorate=short 옵션을 의미합니다. 브랜치와 태그 등의 참조를 간결히 표시.
 --all : all 옵션이 없을 경우 HEAD와 관계없는 옵션은 보여주지 않습니다.
 
 (외우기 힘들때는 "원기올때" 라고 외칩니다.)
@@ -605,7 +608,7 @@ git remote -v
 
 
 
-갑자기 왜그러는지는 모르겠지만 책에서는 소스트리에 이 로컬 저장소를 불러오네요. 일단 책대로 해봅니다.
+갑자기 왜 그러는지는 모르겠지만 책에서는 소스트리에 이 로컬 저장소를 불러오네요. 일단 책대로 해봅니다.
 
 
 
@@ -617,7 +620,9 @@ git remote -v
 
 <img src="Chp06_img/SourceTree_aus4rqJIrp.png" alt="SourceTree_dHciKgEDcM" style="border:2px solid;" />
 
-잘 완성된 것을 소스트리로도 확인이 가능하네요.
+잘 완성된 것을 소스트리로도 확인이 가능하려는 걸 보여주고 싶었나 봅니다.
+
+
 
 
 
