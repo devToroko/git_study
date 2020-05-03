@@ -200,7 +200,8 @@ rebase -i 등을 이용해 필요한 커밋만 남기고 master 브랜치에 강
 
 ## :ocean: CLI 로 checkout 하기
 
-체크아웃 명령은 브랜치의 내용을 워킹트리에 반영할 때 사용합니다. 정확하게 말하면 브랜치가 가르키고 있는 커밋의 내용을 워킹트리에 반영한다고 할 수 있습니다.
+체크아웃 명령은 브랜치의 내용을 워킹트리에 반영할 때 사용합니다. 
+정확하게 말하면 <span style="color:red;font-weight:bold">브랜치가 가르키고 있는 커밋의 내용을 워킹트리에 반영</span>한다고 할 수 있습니다.
 
 
 
@@ -364,6 +365,46 @@ $ git checkout master
 위 3 개의 명령어를 한 번에 수행하는 게 reset --hard 입니다.
 
 (뭔소린지 이해 못하겠음)
+
+
+
+==> 2020-05-02  
+
+아래 이미지 출처:  https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Reset-%EB%AA%85%ED%99%95%ED%9E%88-%EC%95%8C%EA%B3%A0-%EA%B0%80%EA%B8%B0
+
+
+
+git checkout  vs git reset
+
+
+
+![image-20200502155132837](Chp07_img/image-20200502155132837.png)
+
+
+
+![image-20200502155230989](Chp07_img/image-20200502155230989.png)
+
+
+
+git branch **-f**  에서 **-f** 는...
+
+```spreadsheet
+git branch [--track | --no-track] [-f] <branchname> [<start-point>]
+
+...
+The command’s second form creates a new branch head named <branchname> which points to the current HEAD, or <start-point> if given. As a special case, for <start-point>, you may use "A...B" as a shortcut for the merge base of A and B if there is exactly one merge base. You can leave out at most one of A and B, in which case it defaults to HEAD.
+
+Note that this will create the new branch, but it will not switch the working tree to it; use "git switch <newbranch>" to switch to the new branch.
+
+...
+-f
+--force
+    Reset <branchname> to <startpoint>, even if <branchname> exists already. 
+    Without -f, git branch refuses to change an existing branch. 
+    In combination with -d (or --delete), allow deleting the branch irrespective of 
+    its merged status. In combination with -m (or --move), allow renaming the branch 
+    even if the new branch name already exists, the same applies for -c (or --copy).
+```
 
 
 
@@ -694,8 +735,6 @@ Git 에 막 입문하면 master 브랜치를 하나만 써도 희한하게 브�
 
 
 답은 **reset --hard 로 병합 커밋을 되돌리고 rebase 를 사용하는 것**입니다. 간단하죠? 꼭 기억해둡시다.
-
-
 
 
 
