@@ -65,7 +65,7 @@
 
 <span style="color:red;font-weight:bold;font-size:1.2em">Fork</span> 라고합니다.
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp04_img\chrome_65X84OiYry.png" style="zoom: 33%;" />
+<img src="Chp04_img\chrome_65X84OiYry.png" style="zoom: 33%;" />
 
 
 
@@ -88,11 +88,11 @@
 
 어떻게 하냐구요? 아래 그림을 보면 압니다.
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp04_img\chrome_4trd8COMDa.png" style="zoom:80%;border:2px solid;float:left" />
+<img src="Chp04_img\chrome_4trd8COMDa.png" style="zoom:80%;border:2px solid;float:left" />
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp04_img\chrome_WDlBdIhtKZ.png" style="zoom:80%;border:2px solid;float:left" />
+<img src="Chp04_img\chrome_WDlBdIhtKZ.png" style="zoom:80%;border:2px solid;float:left" />
 
 
 
@@ -165,7 +165,7 @@ qkrtkddjs12345+1@gmail.com  / 닉네임 : NongSimNeoguri (농심 너구리 :laug
 
 #### 1\. Fork 하기
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp04_img\chrome_lTmmnr5m82.png" style="zoom:60%;border:2px solid;float:left" />
+<img src="Chp04_img\chrome_lTmmnr5m82.png" style="zoom:60%;border:2px solid;float:left" />
 
 GitHub 로그인 후 왼쪽 상단에서 고양이의 원격저장소를 검색합니다.
 
@@ -173,7 +173,7 @@ GitHub 로그인 후 왼쪽 상단에서 고양이의 원격저장소를 검색�
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp04_img\chrome_DHRfa5uQDc.png" style="zoom:60%;border:2px solid;float:left" />
+<img src="Chp04_img\chrome_DHRfa5uQDc.png" style="zoom:60%;border:2px solid;float:left" />
 
 devToroko/iTshirt 클릭
 
@@ -181,7 +181,7 @@ devToroko/iTshirt 클릭
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp04_img\chrome_j5xWwoIulw.png" style="zoom:60%;border:2px solid;float:left" />
+<img src="Chp04_img\chrome_j5xWwoIulw.png" style="zoom:60%;border:2px solid;float:left" />
 
 화면 상단의 우측에 있는 Fork 버튼을 클릭!
 
@@ -189,13 +189,13 @@ devToroko/iTshirt 클릭
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp04_img\chrome_P6WvW70k18.png" style="zoom:60%;border:2px solid;float:left" />
+<img src="Chp04_img\chrome_P6WvW70k18.png" style="zoom:60%;border:2px solid;float:left" />
 
 그러면 잠시 포크가 진행되는 화면이 나옵니다.
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp04_img\chrome_OCOJl9EGqU.png" style="zoom:60%;border:2px solid;float:left" />
+<img src="Chp04_img\chrome_OCOJl9EGqU.png" style="zoom:60%;border:2px solid;float:left" />
 
 농심 너구리의 원격저장소에 무사히 복사가 완료되었네요.
 
@@ -209,7 +209,7 @@ devToroko/iTshirt 클릭
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp04_img\SourceTree_lQ9jCd9UiS.png" style="border:2px solid;float:left;" />
+<img src="Chp04_img\SourceTree_lQ9jCd9UiS.png" style="border:2px solid;float:left;" />
 
 새 탭을 만들고 ==> clone ==> 너구리의 원격저장소 주소를 적어주고 ==> 로컬에 저장할 위치를 선정해주고 ==> 클론, 끝!
 
