@@ -648,7 +648,7 @@ master 브랜치로 다시 checkout을 하고 \[feature/cart] 브랜치의 최�
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_rTZcCqs6Sk.png" style="zoom:80%;border: 2px solid; float:left;" />
+<img src="Chp03_img\SourceTree_rTZcCqs6Sk.png" style="zoom:80%;border: 2px solid; float:left;" />
 
 
 
@@ -658,13 +658,13 @@ master 브랜치로 다시 checkout을 하고 \[feature/cart] 브랜치의 최�
 
 2\. 해당 브랜치에서 comment.md 파일을 새로 생성 후 , 내용을 작성하고, 저장한다.
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\0EiUJVRNPE.png" style="zoom:80%;border: 2px solid; float:left;" />
+<img src="Chp03_img\0EiUJVRNPE.png" style="zoom:80%;border: 2px solid; float:left;" />
 
 
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_vLqLP9xncB.png" style="zoom:80%;border: 2px solid; float:left;" />
+<img src="Chp03_img\SourceTree_vLqLP9xncB.png" style="zoom:80%;border: 2px solid; float:left;" />
 
 
 
@@ -672,7 +672,7 @@ master 브랜치로 다시 checkout을 하고 \[feature/cart] 브랜치의 최�
 
 3\.  원격 저장소에 가면 아래와 같은 화면을 볼 수 있습니다.
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_ZS2yjZ4ima.png" style="zoom:80%;border:2px solid;float:left" />
+<img src="Chp03_img\chrome_ZS2yjZ4ima.png" style="zoom:80%;border:2px solid;float:left" />
 
 그러면 위에서 처럼 노란색 음영이 나타난 곳에 방금 푸시한 브랜치에 대한 알림이 보입니다.
 
@@ -688,7 +688,7 @@ master 브랜치로 다시 checkout을 하고 \[feature/cart] 브랜치의 최�
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_UCWDaZX7hD.png" style="zoom:80%;border:2px solid;float:left" />
+<img src="Chp03_img\chrome_UCWDaZX7hD.png" style="zoom:80%;border:2px solid;float:left" />
 
 1. [ base : master  ]  : 병합된 커밋이 들어갈 브랜치를 정하는 선택박스
 2. [ compare : feature/comment ] : 병합의 대상이 될, 즉 내가 만들어서 base브랜치에 반영시키고 싶은 브랜치 
@@ -705,7 +705,7 @@ master 브랜치로 다시 checkout을 하고 \[feature/cart] 브랜치의 최�
 5\. 이후에 문어로 원격저장소에 오면 아래와 같은 풀 리퀘스트가 온 것을 확인할 수 있죠.
      그러면 문어는 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_9d01gtIcdj.png" style="border:2px solid;float:left" />
+<img src="Chp03_img\chrome_9d01gtIcdj.png" style="border:2px solid;float:left" />
 
 문어는 이제 이 풀 리퀘스트를 수락(Accept) 할 건지, 수정을 요청할 것인지(Request Change) , 병합할 수도 있습니다(Merge pull request). 
 
@@ -716,7 +716,7 @@ master 브랜치로 다시 checkout을 하고 \[feature/cart] 브랜치의 최�
 6\. Merge pull request 를 누르면 병합 커밋을 만들 수 있는 입력창이 보입니다. 
 브랜치와 브랜치를 병합하는 것은 CLI나 GUI나 GitHub나 그게 그거입니다.
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_TgQIHcxBFy.png" style="zoom:80%;border:2px solid;float:left" />
+<img src="Chp03_img\chrome_TgQIHcxBFy.png" style="zoom:80%;border:2px solid;float:left" />
 
 
 
@@ -724,7 +724,7 @@ master 브랜치로 다시 checkout을 하고 \[feature/cart] 브랜치의 최�
 
 7\. 풀 리퀘스트가 성공적으로 병합된 후에는 닫혔다는 메시지가 나옵니다.
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_UVeTOkS5Sb.png" style="zoom:80%;border:2px solid;float:left" />
+<img src="Chp03_img\chrome_UVeTOkS5Sb.png" style="zoom:80%;border:2px solid;float:left" />
 
 
 
@@ -732,7 +732,7 @@ master 브랜치로 다시 checkout을 하고 \[feature/cart] 브랜치의 최�
 
 이렇게 닫혀진 풀 리퀘스트는 Pull request > Closed 를 클릭하면 아까 닫힌 것을 확인할 수 있습니다.
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_9AYbowZZT3.png" style="zoom:80%;border:2px solid;float:left" />
+<img src="Chp03_img\chrome_9AYbowZZT3.png" style="zoom:80%;border:2px solid;float:left" />
 
 
 
@@ -744,7 +744,7 @@ master 브랜치로 다시 checkout을 하고 \[feature/cart] 브랜치의 최�
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_vp9YRTXX43.png" style="zoom:80%;border:2px solid;float:left" />
+<img src="Chp03_img\SourceTree_vp9YRTXX43.png" style="zoom:80%;border:2px solid;float:left" />
 
 ....?????
 
@@ -759,7 +759,7 @@ GitHub에서 분명 아까 병합커밋을 생성했는데 말이죠...
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_VQDPqHR4KK.png" style="zoom:80%;border:2px solid;float:left" />
+<img src="Chp03_img\SourceTree_VQDPqHR4KK.png" style="zoom:80%;border:2px solid;float:left" />
 
 
 
@@ -767,7 +767,7 @@ GitHub에서 분명 아까 병합커밋을 생성했는데 말이죠...
 
 이후에 그래프가 업데이트된 것을 확인합니다.
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_Z4JlcmKtNv.png" style="zoom:80%;border:2px solid;float:left" />
+<img src="Chp03_img\SourceTree_Z4JlcmKtNv.png" style="zoom:80%;border:2px solid;float:left" />
 
 (로컬에 있는 master 브랜치의 커밋이 2개 밀렸다는 표시가 보이네요)
 
@@ -775,15 +775,15 @@ GitHub에서 분명 아까 병합커밋을 생성했는데 말이죠...
 
 8\.  이제 로컬 저장소의 master 브랜치에 새로운 커밋을 반영합시다.
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\Typora_IP3ipId7q0.png" style="zoom:80%;border:2px solid;float:left" />
+<img src="Chp03_img\Typora_IP3ipId7q0.png" style="zoom:80%;border:2px solid;float:left" />
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_39MUL7hM4V.png" style="zoom:67%;border:2px solid;float:left" />
+<img src="Chp03_img\SourceTree_39MUL7hM4V.png" style="zoom:67%;border:2px solid;float:left" />
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_tT005W4D4v.png" style="zoom:67%;border:2px solid;float:left" />
+<img src="Chp03_img\SourceTree_tT005W4D4v.png" style="zoom:67%;border:2px solid;float:left" />
 
 
 
@@ -811,11 +811,11 @@ GitHub에서 분명 아까 병합커밋을 생성했는데 말이죠...
 
 1\. \[master] 브랜치에 있는 상태에서 소스트리 상단의 \[태그] 아이콘을 클릭합니다.
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_ky9aTPHGq5.png" style="zoom:67%;border:2px solid;float:left" />
+<img src="Chp03_img\SourceTree_ky9aTPHGq5.png" style="zoom:67%;border:2px solid;float:left" />
 
 
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_SfkpJuSFNO.png" style="zoom:67%;border:2px solid;float:left" />
+<img src="Chp03_img\SourceTree_SfkpJuSFNO.png" style="zoom:67%;border:2px solid;float:left" />
 
 
 
@@ -825,7 +825,7 @@ GitHub에서 분명 아까 병합커밋을 생성했는데 말이죠...
 
 2\. 태그도 푸시를 해줘야 원격저장소에서 볼 수 있습니다.
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\SourceTree_QmwwQMmcRj.png" style="zoom:67%;border:2px solid;float:left" />
+<img src="Chp03_img\SourceTree_QmwwQMmcRj.png" style="zoom:67%;border:2px solid;float:left" />
 
 
 
@@ -833,7 +833,7 @@ GitHub에서 분명 아까 병합커밋을 생성했는데 말이죠...
 
 원격 저장소에 가면 태그가 등록된것을 확인할 수 있습니다.
 
-<img src="C:\Users\parknote\Desktop\팀개발을위한Git_GitHub_시작하기\Chp03_img\chrome_JBkQieiKsR.png" style="zoom:67%;border:2px solid;float:left" />
+<img src="Chp03_img\chrome_JBkQieiKsR.png" style="zoom:67%;border:2px solid;float:left" />
 
 
 
